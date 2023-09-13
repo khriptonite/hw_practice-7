@@ -1,0 +1,140 @@
+.block {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.div1 {
+  left: 20px;
+  background-color: red;
+  z-index: 3;
+}
+
+.div2 {
+  left: 40px;
+  background-color: greenyellow;
+  z-index: 2;
+}
+
+.div3 {
+  left: 60px;
+  background-color: blue;
+  z-index: 1;
+}
+
+.div4 {
+  left: 80px;
+  background-color: blueviolet;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  width: 30px;
+  height: 3cqb;
+  border: 1px solid black;
+  position: relative;
+}
+
+.fromMiddle {
+  top: 16px;
+  left: 16px;
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  position: absolute;
+}
+
+.hidden {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  visibility: hidden;
+}
+
+.none {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  display: none;
+}
+
+.parent {
+  height: 100px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.child {
+  height: 100%;
+  width: 100%;
+  padding: 16px;
+  border: 2px solid red;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.secondary {
+  border: 1px solid black;
+  padding: 3px 15px;
+  margin: 1px;
+}
+
+.main_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Courier New", Courier, monospace;
+  width: 500px;
+  background-color: lightgreen;
+  text-align: center;
+}
+
+.list_parent {
+  width: 500px;
+  background-color: rgb(193, 230, 253);
+}
+
+ol {
+  padding: 0 20px;
+}
+
+.list_item {
+  text-align: center;
+  list-style: none;
+  padding: 10px 0;
+}
+
+.list_item a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+  font-size: 17px;
+}
